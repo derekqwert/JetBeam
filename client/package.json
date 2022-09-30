@@ -1,0 +1,48 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "root/index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-prod": "webpack -p",
+    "build-watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-reader": "0.0.7",
+    "copy-webpack-plugin": "^5.0.0",
+    "fakerator": "^0.3.1",
+    "particles.js": "^2.0.0",
+    "portal-vue": "^1.5.0",
+    "v-click-outside": "^2.0.2",
+    "vue": "^2.5.21",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/preset-env": "^7.3.4",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^25.1.0",
+    "jest-docblock": "^24.9.0",
+    "jsdom-devtools-formatter": "^1.0.0",
+    "leader-line": "^1.0.5",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^7.1.0",
+    "sinon": "^8.1.1",
+    "vue-jest": "^3.0.4",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
